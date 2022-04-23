@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Book" skipped="0" tests="1" time="12.57" timestamp="2022-04-23 01:55:39"><testcase name="GET - As a user I have to be able to see all the books in the list"/></testsuite>

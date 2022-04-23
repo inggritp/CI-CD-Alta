@@ -1,0 +1,10 @@
+starter\stepdefinitions\GetBookStep.class
+starter\bookstore\BooksPost.class
+starter\User\PostGenerateToken.class
+Utils\RandomUsername.class
+starter\stepdefinitions\UserStep.class
+CucumberTestSuite.class
+starter\bookstore\BookDelete.class
+starter\User\PostAuthorized.class
+starter\bookstore\BooksGet.class
+starter\User\Post.class
