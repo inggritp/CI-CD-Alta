@@ -1,20 +1,20 @@
-#Feature: User
-#  As an admin I have to be able create new user
-#  So that I can update user data
-#
-#  Scenario Outline: POST - As an admin i want to create new user
-#    Given I set an endpoint for POST new user
-#    When  I enter "<username>" with "<password>"
-#    Then I validate the status code for POST new user  is <status_code>
-#    And I validate the "<message>" after create user
-#    Examples:
-#    |username|password|status_code|message|
-#    |new     |Rubyjanee!1617 |201        |success|
-#    |        |Rubyjanee!1617|400        |required|
-#    |Jenjenn67|       |400|required|
-#    |         |       |400|required|
-#    |same     |Rubyjanee!1617|406        |existed |
-#
+Feature: User
+  As an admin I have to be able create new user
+  So that I can update user data
+
+  Scenario Outline: POST - As an admin i want to create new user
+    Given I set an endpoint for POST new user
+    When  I enter "<username>" with "<password>"
+    Then I validate the status code for POST new user  is <status_code>
+    And I validate the "<message>" after create user
+    Examples:
+    |username|password|status_code|message|
+    |new     |Rubyjanee!1617 |201        |success|
+    |        |Rubyjanee!1617|400        |required|
+    |Jenjenn67|       |400|required|
+    |         |       |400|required|
+    |same     |Rubyjanee!1617|406        |existed |
+
 
 
 #  Scenario: POST - As an admin i can't create new user and password
