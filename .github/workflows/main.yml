@@ -3,11 +3,11 @@ name: First Master CI
 on:
   push:
     branches:
-      -master
-
+      - master
  pull_request:
    branches:
-     -master
+     - master
+
 jobs:
   build:
     runs-on: ubuntu-latest
